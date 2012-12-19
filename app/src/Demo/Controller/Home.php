@@ -22,13 +22,13 @@ class Home extends Base
      * @return mixed
      */
     public function getIndexAction()
-	{
-		$data = array(
-			'title'   => 'Fonto PHP Framework',
-			'text'    => 'Under development',
-			'baseUrl' => $this->url()->baseUrl()
-		);
+    {
+        $data = array(
+            'title' => 'Fonto PHP Framework',
+            'text' => 'Under development',
+            'baseUrl' => $this->url()->baseUrl()
+        );
 
         return $this->view()->render('home/index', $data);
-	}
+    }
 }
