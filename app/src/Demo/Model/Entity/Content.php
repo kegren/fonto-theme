@@ -70,7 +70,6 @@ class Content
      */
     public function populate($data = array())
     {
-        //$this->setUserId();
         $this->setType($data['type']);
         $this->setTitle($data['title']);
         $this->setSlug($data['slug']);
