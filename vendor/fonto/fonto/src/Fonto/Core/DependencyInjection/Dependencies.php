@@ -24,7 +24,7 @@ return array(
      */
     'Router' => array(
         'class' => '\Fonto\Core\Routing\Router',
-        'id' => 'Config',
+        'id' => 'Router',
         'args' => array(
             'Route' => '\Fonto\Core\Routing\Route',
             'Request' => '\Fonto\Core\Http\Request'
