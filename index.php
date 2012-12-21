@@ -22,8 +22,6 @@ defined('SYSCOREPATH') or define('SYSCOREPATH', VENDORPATH . 'fonto' . DS . 'fon
 defined('SYSCOREAPPPATH') or define('SYSCOREAPPPATH', VENDORPATH . 'fonto' . DS . 'fonto' . DS . 'src' . DS . 'Fonto' . DS . 'Core' . DS . 'Application' . DS);
 defined('WEBPATH') or define('WEBPATH', ROOT . 'web' . DS);
 
-error_reporting(-1);
-ini_set('display_errors','On');
 
 /**
  * Launch bootstrap
